@@ -7,23 +7,27 @@
     padding: 20px;
     margin: 10px;
     border: 1px solid black;
-    background-color: #f0f0f0;
-    box-sizing: content-box; /* Box model issue */
+    background-color: #84A59D;
+    box-sizing: content-box;
 }
 
 .special {
     margin: 5px;
-    background-color: pink;
+    background-color: #F6BD60;
 }
 
 .box.special {
-    border: 4px dotted red;
+    border: 4px dotted #5D2A42;
+}
+
+.flex-container {
+    display: flex;
 }
 
 .flex-item {
     padding: 20px;
     margin: 10px;
     border: 2px solid black;
-    background-color: lightgrey;
-    /* Missing flex properties to demonstrate issues */
+    background-color: #016FB9;
+    color: white;
 }
